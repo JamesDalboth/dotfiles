@@ -1,0 +1,14 @@
+- defaults:
+        link:
+                relink: true
+
+- clean: ['~']
+
+- link:
+        ~/.Xresources: Xresources
+        ~/.config/polybar: polybar
+        ~/.config/bspwm: bspwm
+        ~/.config/sxhkd: sxhkd
+        ~/.zshrc: zshrc
+- shell:
+        - [git submodule update --init --recursive, Installing submodules]
