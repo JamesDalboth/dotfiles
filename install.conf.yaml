@@ -10,5 +10,8 @@
         ~/.config/bspwm: bspwm
         ~/.config/sxhkd: sxhkd
         ~/.zshrc: zshrc
+        ~/.vimrc: vimrc
+        ~/.vim: vim
+
 - shell:
         - [git submodule update --init --recursive, Installing submodules]
