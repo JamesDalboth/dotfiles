@@ -1,0 +1,7 @@
+[user]
+	email = james.dalboth@gmail.com
+  name = JamesDalboth
+
+[branch "master"]
+  remote = origin
+  merge = refs/heads/master
