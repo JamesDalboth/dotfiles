@@ -1,19 +1,20 @@
 - defaults:
-  link:
-    relink: true
+    link:
+        relink: true
 
 - clean: ['~']
 
 - link:
-  ~/.Xresources: Xresources
-  ~/.config/polybar: polybar
-  ~/.config/bspwm: bspwm
-  ~/.config/sxhkd: sxhkd
-  ~/.zshrc: zshrc
-  ~/.vimrc: vimrc
-  ~/.vim: vim
-  ~/.config/picom: picom
-  ~/.gitconfig: gitconfig
+    ~/.Xresources: Xresources
+    ~/.config/polybar: polybar
+    ~/.config/bspwm: bspwm
+    ~/.config/sxhkd: sxhkd
+    ~/.zshrc: zshrc
+    ~/.vimrc: vimrc
+    ~/.vim: vim
+    ~/.config/picom: picom
+    ~/.gitconfig: gitconfig
+    ~/.zprofile: zprofile
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
